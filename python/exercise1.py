@@ -16,8 +16,8 @@ print(f'A soma entre {n1} e {n2} é: {n1+n2}\nA subtração entre {n1} e {n2} é
 
 """# Ex2"""
 
-tempo = int(input('Digite o tempo da viagem em minutos: '))
-velocidade = int(input('Digite a velocidade média em km/h: '))
+tempo = float(input('Digite o tempo da viagem em minutos: '))
+velocidade = float(input('Digite a velocidade média em km/h: '))
 
 distancia = (tempo/60)*velocidade
 
